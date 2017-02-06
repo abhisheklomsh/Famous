@@ -1,0 +1,20 @@
+<application>
+  <component name="FindRecents">
+    <findStrings>
+      <find>id</find>
+      <find>no acc</find>
+      <find>famou</find>
+      <find>Login</find>
+      <find>RegisteR</find>
+      <find>logincrea</find>
+      <find>Register</find>
+      <find>relative</find>
+      <find>login</find>
+      <find>register</find>
+      <find>logincreate</find>
+      <find>oncrea</find>
+      <find>welcome</find>
+      <find>createacc</find>
+    </findStrings>
+  </component>
+</application>
