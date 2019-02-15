@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "566998714991",
+    "firebase_url": "https://falhar-f22fd.firebaseio.com",
+    "project_id": "falhar-f22fd",
+    "storage_bucket": "falhar-f22fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:566998714991:android:70dbf7414aec3bc3",
+        "android_client_info": {
+          "package_name": "abhisheklomsh.falhaar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "566998714991-4h09j0p96qn5ccc2o2ouv0nsqffaao79.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjs_LchP90lk-8TpTGY6p-35FK_djMbDw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

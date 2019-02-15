@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="abhisheklomsh.falhaarfruitshop.UserRegistration"
+    android:background="@android:color/holo_green_light"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:id="@+id/email_signup_form_firebase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:layout_weight="0.06">
+
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="200dp"
+            android:layout_weight="0.62"
+            android:src="@drawable/main_falhaar"/>
+
+
+        <AutoCompleteTextView
+            android:id="@+id/signup_email_firebase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/prompt_email"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColorHint="#ffffff"/>
+
+
+        <EditText
+            android:id="@+id/signup_password_firebase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/prompt_password"
+            android:imeActionId="@+id/login"
+            android:imeActionLabel="@string/action_sign_in_short"
+            android:imeOptions="actionUnspecified"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColorHint="#ffffff"/>
+
+
+        <Button
+            android:id="@+id/sign_up_button_firebase"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/holo_green_dark"
+            android:text="@string/sign_up"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/mForgotPasswordButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:gravity="center_horizontal"
+            android:text="Forgot Password?"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="22sp"/>
+
+        <TextView
+            android:id="@+id/mAlreadyUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:gravity="center_horizontal"
+            android:paddingTop="20sp"
+            android:text="Already Have Account? Sign In!"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="22sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

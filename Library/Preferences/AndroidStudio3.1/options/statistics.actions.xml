@@ -1,0 +1,9 @@
+<application>
+  <component name="ActionsCollector">
+    <counts>
+      <entry action="ChooseRunConfiguration" count="1" />
+      <entry action="OpenFile" count="1" />
+      <entry action="Run" count="2" />
+    </counts>
+  </component>
+</application>
